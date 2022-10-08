@@ -1,0 +1,19 @@
+{
+  "name": "mongo-ssh",
+  "version": "1.0.0",
+  "description": "Boilerplate code to locally connect to a mongo cluster accessible via a bastion server",
+  "main": "index.js",
+  "scripts": {
+    "connect": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "mongoose": "^6.6.5",
+    "ssh2-promise": "^1.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
